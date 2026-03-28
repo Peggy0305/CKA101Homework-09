@@ -1,29 +1,48 @@
 package hw2;
-//請建立一個TestNineNine.java程式,可輸出九九乘法表
 
 public class TestNineNine {
+	public static void main(String[] args) {
+		
+//		 使用 for 迴圈 + while 迴圈
+		
+//		int i;
+//		for(i = 1; i <= 9; i++) {
+//			int j = 1;
+//			while(j <= 9) {
+//				System.out.print(i + "*" + j + "=" + i*j + "\t");
+//				j++;
+//			}
+//		    System.out.println();
+//		}
+//	}
+	
 
-//	• 一:使用for迴圈 + while迴圈
-    public static void main(String[] args) {
-    	for (int = 1; i <= 9; i++) {
-    		int j = i;
-    		while (j <= 9) {
-    			System.out.println(i + "x" + j + "=" + (i * j) + "\t");
-    			j++;
-    		}
-    		System.out.println();
-    	}
-    }
-}    
-//	• 二:使用for迴圈 + do while迴圈
-//    public static void main(String[] args) {
-//    	
-//    	
-//    }
-//	• 三:使用while迴圈 + do while迴圈
-//    public static void main(String[] args) {
-//    	
-//    	
-//    }
+//         使用 for 迴圈 + do while 迴圈
 
-//}
+//		int a;
+//		for(a = 1; a <= 9 ; a++) {
+//			int b = 1;
+//			do {
+//				System.out.print(a + "*" + b + "=" + a*b + "\t");
+//				b++;
+//			}while (b <= 9);
+//			System.out.println();	
+//		}
+//	}			
+		
+//		 使用 while 迴圈 + do while 迴圈
+		
+		int c = 1;
+		while( c <= 9) {
+			int d = 1;
+			do{
+			   System.out.print(c + "*" + d + "=" + c*d + "\t");
+			   d++;
+		       } while(d <= 9);
+			System.out.println();
+			c++;
+		}
+	}
+}
+
+
