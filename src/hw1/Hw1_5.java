@@ -3,7 +3,7 @@ package hw1;
 //金加利息共有多少錢 (用複利計算，公式請自行google)
 //複利公式 = FV = PV(1 + r)^n
 //FV = 期末終值 ; PV = 初期現值(本金)
-public class hw1_5 {
+public class Hw1_5 {
     public static void main(String[] args) {
     
         double PV = 1500000;
